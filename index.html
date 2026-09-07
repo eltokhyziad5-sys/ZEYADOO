@@ -1,0 +1,243 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>ZEYADOO | زيادو</title>
+<meta name="description" content="ZEYADOO - اختارها وإحنا نوفرها. تسوق ذكي وتقسيط سهل.">
+<style>
+*{box-sizing:border-box}
+body{margin:0;font-family:Arial,Tahoma,sans-serif;background:#0b0b0b;color:#fff}
+a{text-decoration:none;color:inherit}
+.container{width:min(1100px,92%);margin:auto}
+header{position:sticky;top:0;z-index:10;background:#0b0b0bf2;border-bottom:1px solid #292929;backdrop-filter:blur(10px)}
+.nav{height:72px;display:flex;align-items:center;justify-content:space-between}
+.logo{font-size:28px;font-weight:900;letter-spacing:1px}
+.logo span{color:#ffd21c}
+nav{display:flex;gap:25px;color:#ddd}
+nav a:hover{color:#ffd21c}
+.hero{padding:85px 0 65px;background:radial-gradient(circle at 80% 20%,#3b3100 0,#111 35%,#0b0b0b 70%)}
+.hero-grid{display:grid;grid-template-columns:1.3fr .7fr;gap:40px;align-items:center}
+.badge{display:inline-block;border:1px solid #6b5b00;color:#ffd21c;padding:8px 14px;border-radius:30px;margin-bottom:18px}
+h1{font-size:55px;line-height:1.05;margin:0 0 20px}
+h1 span{color:#ffd21c}
+.hero p{font-size:20px;line-height:1.8;color:#ccc}
+.buttons{display:flex;gap:12px;flex-wrap:wrap;margin-top:28px}
+.btn{padding:14px 23px;border-radius:12px;font-weight:bold;display:inline-block}
+.primary{background:#ffd21c;color:#111}
+.secondary{border:1px solid #555;color:#fff}
+.card{background:#151515;border:1px solid #292929;border-radius:22px;padding:30px;text-align:center;box-shadow:0 15px 50px #0008}
+.big-z{font-size:130px;font-weight:900;color:#ffd21c}
+section{padding:70px 0}
+.title{text-align:center;font-size:34px;margin-bottom:40px}
+.title span{color:#ffd21c}
+.grid{display:grid;grid-template-columns:repeat(4,1fr);gap:18px}
+.product{background:#151515;border:1px solid #292929;border-radius:18px;padding:22px;transition:.2s}
+.product:hover{transform:translateY(-5px);border-color:#ffd21c}
+.icon{height:100px;display:grid;place-items:center;font-size:55px;background:#101010;border-radius:14px;margin-bottom:18px}
+.product h3{margin:8px 0}
+.price{color:#ffd21c;font-size:22px;font-weight:bold}
+.month{color:#aaa;margin:8px 0 15px}
+.order{background:#111;border-top:1px solid #292929;border-bottom:1px solid #292929}
+.form{max-width:650px;margin:auto;background:#181818;padding:30px;border-radius:22px;border:1px solid #292929}
+label{display:block;margin:13px 0 7px;color:#ddd}
+input,select{width:100%;padding:14px;border-radius:10px;border:1px solid #444;background:#0d0d0d;color:#fff;font-size:16px}
+.submit{width:100%;margin-top:22px;border:0;cursor:pointer;font-size:17px}
+.steps{display:grid;grid-template-columns:repeat(3,1fr);gap:20px}
+.step{background:#151515;border:1px solid #292929;border-radius:18px;padding:25px}
+.num{font-size:35px;color:#ffd21c;font-weight:bold}
+footer{padding:35px 0;text-align:center;color:#888;border-top:1px solid #292929}
+.whatsapp{color:#ffd21c;font-weight:bold}
+@media(max-width:800px){
+.hero-grid{grid-template-columns:1fr}
+h1{font-size:42px}
+.grid{grid-template-columns:repeat(2,1fr)}
+.steps{grid-template-columns:1fr}
+nav{display:none}
+}
+@media(max-width:480px){
+.grid{grid-template-columns:1fr}
+.hero{padding-top:55px}
+}
+</style>
+</head>
+
+<body>
+
+<header>
+<div class="container nav">
+<div class="logo">ZEYAD<span>OO</span></div>
+<nav>
+<a href="#products">المنتجات</a>
+<a href="#how">إزاي بنشتغل؟</a>
+<a href="#order">اطلب دلوقتي</a>
+</nav>
+<a class="btn primary" href="https://wa.me/201550617464" target="_blank">واتساب</a>
+</div>
+</header>
+
+<main>
+
+<section class="hero">
+<div class="container hero-grid">
+<div>
+<div class="badge">🖤 تسوق أذكى • ادفع بسهولة</div>
+<h1>اختارها...<br><span>وإحنا نوفرها</span></h1>
+<p>
+أهلًا بيك في <b>ZEYADOO | زيادو</b>.<br>
+إنت تختار المنتج اللي محتاجه، وإحنا نوفرهولك بأبسط طريقة.
+</p>
+<div class="buttons">
+<a class="btn primary" href="#products">شوف المنتجات</a>
+<a class="btn secondary" href="#order">اطلب منتجك</a>
+</div>
+</div>
+<div class="card">
+<div class="big-z">Z</div>
+<h2>SMART SHOPPING</h2>
+<p>تقسيط سهل لمدة <b style="color:#ffd21c">6 شهور</b></p>
+<p>الحد الأقصى للطلب <b style="color:#ffd21c">3,000 جنيه</b></p>
+</div>
+</div>
+</section>
+
+<section id="products">
+<div class="container">
+<h2 class="title">اختار <span>منتجك</span></h2>
+<div class="grid">
+
+<div class="product">
+<div class="icon">🎧</div>
+<h3>سماعات وأيربودز</h3>
+<div class="price">من 1,000 جنيه</div>
+<div class="month">تقسيط 6 شهور</div>
+<a class="btn primary" href="#order">اطلب الآن</a>
+</div>
+
+<div class="product">
+<div class="icon">⌚</div>
+<h3>Smart Watch</h3>
+<div class="price">من 1,500 جنيه</div>
+<div class="month">تقسيط 6 شهور</div>
+<a class="btn primary" href="#order">اطلب الآن</a>
+</div>
+
+<div class="product">
+<div class="icon">🔋</div>
+<h3>Power Bank</h3>
+<div class="price">من 800 جنيه</div>
+<div class="month">تقسيط 6 شهور</div>
+<a class="btn primary" href="#order">اطلب الآن</a>
+</div>
+
+<div class="product">
+<div class="icon">🎮</div>
+<h3>Gaming & Accessories</h3>
+<div class="price">حتى 3,000 جنيه</div>
+<div class="month">تقسيط 6 شهور</div>
+<a class="btn primary" href="#order">اطلب الآن</a>
+</div>
+
+</div>
+</div>
+</section>
+
+<section id="how">
+<div class="container">
+<h2 class="title">إزاي <span>بنشتغل؟</span></h2>
+<div class="steps">
+
+<div class="step">
+<div class="num">01</div>
+<h3>اختار</h3>
+<p>اختار المنتج اللي محتاجه أو ابعتلنا اسمه وصورته.</p>
+</div>
+
+<div class="step">
+<div class="num">02</div>
+<h3>اطلب</h3>
+<p>ابعت بياناتك وإحنا نتواصل معاك لتأكيد السعر والتفاصيل.</p>
+</div>
+
+<div class="step">
+<div class="num">03</div>
+<h3>استلم</h3>
+<p>نوفر المنتج وننسق معاك التسليم في منطقة تلا والمنوفية.</p>
+</div>
+
+</div>
+</div>
+</section>
+
+<section class="order" id="order">
+<div class="container">
+<h2 class="title">اطلب من <span>ZEYADOO</span></h2>
+
+<form class="form" id="orderForm">
+<label>اسمك</label>
+<input id="name" required placeholder="اكتب اسمك">
+
+<label>رقم الموبايل</label>
+<input id="phone" required type="tel" placeholder="01xxxxxxxxx">
+
+<label>المنتج المطلوب</label>
+<input id="product" required placeholder="مثال: AirPods Pro">
+
+<label>السعر التقريبي</label>
+<input id="price" required type="number" min="1" max="3000" placeholder="بحد أقصى 3000 جنيه">
+
+<label>المنطقة</label>
+<input id="area" required value="تلا - المنوفية">
+
+<button class="btn primary submit" type="submit">
+إرسال الطلب على واتساب
+</button>
+</form>
+</div>
+</section>
+
+</main>
+
+<footer>
+<div class="container">
+<div class="logo">ZEYAD<span>OO</span></div>
+<p>SMART SHOPPING. EASY PAYMENTS.</p>
+<p>تلا - المنوفية</p>
+<p>للتواصل: <a class="whatsapp" href="tel:01025287464">01025287464</a></p>
+<p>واتساب: <a class="whatsapp" href="https://wa.me/201550617464" target="_blank">01550617464</a></p>
+<p>© 2026 ZEYADOO | زيادو</p>
+</div>
+</footer>
+
+<script>
+document.getElementById("orderForm").addEventListener("submit",function(e){
+e.preventDefault();
+
+const name=document.getElementById("name").value.trim();
+const phone=document.getElementById("phone").value.trim();
+const product=document.getElementById("product").value.trim();
+const price=document.getElementById("price").value;
+const area=document.getElementById("area").value.trim();
+
+if(Number(price)>3000){
+alert("الحد الأقصى للطلب 3,000 جنيه.");
+return;
+}
+
+const monthly=(Number(price)/6).toFixed(2);
+
+const message=
+"طلب جديد من ZEYADOO 🖤%0A%0A"+
+"الاسم: "+encodeURIComponent(name)+"%0A"+
+"الموبايل: "+encodeURIComponent(phone)+"%0A"+
+"المنتج: "+encodeURIComponent(product)+"%0A"+
+"السعر: "+encodeURIComponent(price)+" جنيه%0A"+
+"القسط الشهري: "+encodeURIComponent(monthly)+" جنيه × 6 شهور%0A"+
+"المنطقة: "+encodeURIComponent(area);
+
+window.open("https://wa.me/201550617464?text="+message,"_blank");
+});
+</script>
+
+</body>
+                       </html>
